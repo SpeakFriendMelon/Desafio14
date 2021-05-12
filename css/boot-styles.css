@@ -1,0 +1,166 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* RESET PARA REMS  */
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/**ESTILO DEL NAV**/
+.navegacion a {
+  color: white !important;
+  text-decoration: overline;
+  font-size: 2.2rem;
+  margin-right: 2.4rem;
+  
+}
+
+.navegacion a:hover {
+  color: #13a8a8 !important;;
+  
+}
+
+/**UTILITDADES**/
+
+
+.margen {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.margen2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  
+}
+.size {
+  width: 340px;
+  height: 100px;
+}
+
+.card-size {
+  min-width: 22rem;
+  max-width: 22rem;
+}
+.card-cont {
+margin-bottom: 15rem;
+}
+
+.svg {
+width: 30px;
+height: 30px;
+margin-right: 10px;
+}
+
+footer {
+height: 100px;
+width: 100%;
+margin-top: 10rem;  
+}
+@media only screen and (max-width: 680px){
+.margen2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+}
+.margen3 {
+  margin: auto;
+  padding: auto;
+  }
+.size {
+  width: 310px;
+  height: 90px;
+}
+.align-items-start{
+  display: flex;
+  align-items: center;
+}
+.card {
+  margin-bottom: 2rem;
+  padding: auto;
+}
+h1 {
+  font-size: 1.5em;
+}
+}
+/*TARJETAS*/
+.cards-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+.card {
+  width: 280px;
+  background-color: #fd3a4a;
+  color: white;
+  border: 0.5px solid white;
+  border-radius: 0 0 7px 7px;
+  margin: 0.3rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
+
+.card:hover {
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05, 1.05); }
+
+.card h4 {
+  padding: 10px 0px 0 10px;
+  font-weight: 600; }
+
+.card p {
+  font-size: 0.9em;
+  padding: 5px 5px 0 10px; }
+
+.card a {
+  margin-top: 1rem;
+  font-size: 0.9em;
+  font-weight: 650;
+  text-align: center;
+  border-radius: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 35px; }
+
+.card span {
+  font-style: italic;
+  font-weight: 550; }
+
+
+
+
+@media only screen and (max-width: 1024px){
+
+.margen3 {
+  margin: auto;
+  padding: auto;
+  }
+
+  .margen2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+  }
+  .card {
+    margin-bottom: 2rem;
+    padding: auto;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+ .navegacion a {
+   margin-right: 0;
+ }
+}
