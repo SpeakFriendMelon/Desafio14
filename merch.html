@@ -68,41 +68,139 @@
   </header>
 
   <section>
-    <div>
-      <form action="#" target="#">
-        <fieldset>
-          <legend>Registrate</legend>
+    <h1 class="titulo__centrado titulo__centrado--margin">Merchandising</h1>
 
-          <label>Tu nombre: <input type="text" name="nombre" /></label>
-
-          <label>
-            Tu dirección de correo: <input type="text" name="correo" /></label>
-
-          <label>Comentarios<textarea name="mensaje"></textarea></label>
-        </fieldset>
-
-        <fieldset>
-          <legend>Elegí tu temática</legend>
-
-          <h3>¿Cómo vas a vivir la Tierra Media?</h3>
-
-          <label><input type="radio" name="elfo" /> Élfico</label>
-
-          <label><input type="radio" name="hobbit" /> Comarqueño</label>
-
-          <label><input type="radio" name="guerrero" /> Guerrero</label>
-
-          <label><input type="radio" name="orco" /> Orco</label>
-
-          <label><input type="radio" name="mago" /> Mago</label>
-        </fieldset>
-
-        <input type="submit" value="Enviar mensaje" />
-
-        <input type="reset" value="Comenzar de nuevo" />
-      </form>
+    <div class="container">
+      <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="img/lotr2.gif" class="d-block w-100 img__carousel" alt="lordoftheringsgif">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulo__carousel">Un Hobbit no se aburre</h5>
+              <p class="subtitulo__carousel">Esos seres bajitos que no entienden la vida sin cerveza en mano con sus amigos.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="img/lotr3.gif" class="d-block w-100 img__carousel" alt="lordoftheringsgif">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulo__carousel">Los enanos saben divertirse</h5>
+              <p class="subtitulo__carousel"> Algunos pasan su vida sin ver jamás la luz del sol, y tampoco la echan en falta.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/lotr4.gif" class="d-block w-100 img__carousel" alt="lordoftheringsgif">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulo__carousel">Los orcos no le temen a la fiesta</h5>
+              <p class="subtitulo__carousel">¡Nunca entres a un pogo lleno de orcos!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   </section>
+
+  <main>
+    <h2 class="titulo__centrado titulo__centrado--margin">!Momento de elegir tu vestuario!</h2>
+    <h3 class="subtitulo__vestuario">Comencemos por la cabeza</h3>
+    
+
+    <!-- CABEZA -->
+    <div class="container-fluid merch-cards">
+      <div class="card merch-cards-color" style="width: 18rem;">
+        <img src="img/casco1.png" class="card-img-top" alt="casco">
+        <div class="card-body">
+          <p class="card-text">Casco de Borthan</p>
+          <input type="checkbox" id="casco1" name="casco1" value="casco">
+          <label for="añadir"> Añadir a inventario</label><br>
+        </div>
+      </div>
+
+      <div class="card merch-cards-color" style="width: 18rem;">
+        <img src="img/sombrero.png" class="card-img-top" alt="sombrero">
+        <div class="card-body">
+          <p class="card-text">Sombrero Maedhros</p>
+          <input type="checkbox" id="sombrero1" name="sombrero1" value="sombrero">
+          <label for="añadir"> Añadir a inventario</label><br>
+        </div>
+      </div>
+
+      <div class="card merch-cards-color" style="width: 18rem;">
+        <img src="img/corona.png" class="card-img-top" alt="corona">
+        <div class="card-body">
+          <p class="card-text">Corona de Laurelin</p>
+          <input type="checkbox" id="corona" name="corona" value=corona">
+          <label for="añadir"> Añadir a inventario</label><br>
+        </div>
+      </div>
+
+      <div class="card merch-cards-color" style="width: 18rem;">
+        <img src="img/casco2.png" class="card-img-top" alt="casco">
+        <div class="card-body">
+          <p class="card-text">Casco Mar-nu Falmar</p>
+          <input type="checkbox" id="casco2" name="casco2" value="casco">
+          <label for="casco"> Añadir a inventario</label><br>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- CUERPO -->
+    <h3 class="subtitulo__vestuario">Elegí tu vestimenta</h3>
+    <div class="container-fluid merch-cards">
+      <div class="card merch-cards-color-dos" style="width: 18rem;">
+        <img src="img/hobbit.png" class="card-img-top" alt="casco">
+        <div class="card-body">
+          <p class="card-text">Hobbit's Outfit</p>
+          <input type="checkbox" id="hobbitoutfit" name="hobbitoutfit" value="outfit">
+          <label for="añadir"> Añadir a inventario</label><br>
+        </div>
+      </div>
+
+      <div class="card merch-cards-color-dos" style="width: 18rem;">
+        <img src="img/elf.png" class="card-img-top" alt="elvenoutfit">
+        <div class="card-body">
+          <p class="card-text">Elven Outfit</p>
+          <input type="checkbox" id="elvenoutfit" name="elvenoutfit" value="outfit">
+          <label for="añadir"> Añadir a inventario</label><br>
+        </div>
+      </div>
+
+      <div class="card merch-cards-color-dos" style="width: 18rem;">
+        <img src="img/enano.png" class="card-img-top" alt="dwarfarmor">
+        <div class="card-body">
+          <p class="card-text">Dwarf Armor</p>
+          <input type="checkbox" id="dwarfarmor" name="dwarfarmor" value=outfit">
+          <label for="añadir"> Añadir a inventario</label><br>
+        </div>
+      </div>
+
+      <div class="card merch-cards-color-dos" style="width: 18rem;">
+        <img src="img/mago.png" class="card-img-top" alt="wizardoutfit">
+        <div class="card-body">
+          <p class="card-text">Wizard Outfit</p>
+          <input type="checkbox" id="wizardoutfit" name="wizardoutfit" value="outfit">
+          <label for="añadir"> Añadir a inventario</label><br>
+        </div>
+      </div>
+      
+    </div>
+
+    
+
+  </main>
 
   <footer class="bg-dark text-center text-white">
     <!-- Grid container -->

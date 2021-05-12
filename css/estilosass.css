@@ -188,3 +188,70 @@ html {
 @media only screen and (max-width: 680px) {
   .datatable-container {
     width: 100%; } }
+
+
+
+/**MERCH**/
+
+.titulo__centrado--margin{
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.titulo__carousel{
+  color: white;
+  font-size: 2em;
+  font-weight: 550;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.subtitulo__carousel{
+  color: white;
+  font-size: 1.3em;
+  background-color: rgb(170, 169, 169);
+  
+  
+}
+
+.carousel-caption p{
+  opacity: 0.8;
+  border-radius: 50px;
+  width: 110%;
+}
+
+.img__carousel {  
+  height: 450px;
+}
+
+.w-carousel{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.subtitulo__vestuario{
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0 2rem 2rem;
+  font-size: 1.3em;
+}
+
+.merch-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.merch-cards-color{
+  background-color: rgb(143, 212, 197);
+}
+
+.card-text{
+  display: flex;
+  justify-content: center;
+}
+
+.merch-cards-color-dos{
+  background-color: rgb(252, 125, 142);
+}
